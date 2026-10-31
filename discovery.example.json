@@ -1,0 +1,8 @@
+{
+  "topic": "how GPS satellite timing determines location",
+  "keywords": ["gps", "satellite", "timing", "location"],
+  "subreddits": ["explainlikeimfive"],
+  "max_age_days": 7,
+  "max_results": 5,
+  "max_requests": 3
+}

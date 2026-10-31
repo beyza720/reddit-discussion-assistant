@@ -1,0 +1,31 @@
+{
+  "videos": [
+    {
+      "id": "sample-gps",
+      "title": "SAMPLE ONLY: How GPS estimates your location",
+      "url": "https://www.youtube.com/watch?v=REPLACE_ME",
+      "transcript_or_summary": "SAMPLE DATA, NOT VERIFIED CHANNEL CONTENT. GPS satellites broadcast timing signals. A receiver compares signal travel times to estimate distances to satellites. Combining measurements from multiple satellites lets the receiver estimate its position and clock offset.",
+      "keywords": ["gps", "satellite", "timing", "location"]
+    }
+  ],
+  "subreddits": ["explainlikeimfive", "technology"],
+  "max_age_days": 7,
+  "max_results": 5,
+  "requests": {
+    "max_requests": 6,
+    "min_interval_seconds": 5,
+    "max_retries": 1,
+    "timeout_seconds": 15,
+    "cache_ttl_seconds": 300
+  },
+  "access": {
+    "permission_reference": "",
+    "permission_note": "No permission has been verified. A robots Allow is not permission."
+  },
+  "llm": {
+    "provider": "none",
+    "model": "qwen3:4b",
+    "max_calls": 5,
+    "max_text_chars": 6000
+  }
+}

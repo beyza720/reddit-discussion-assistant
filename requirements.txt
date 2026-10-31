@@ -1,0 +1,5 @@
+requests>=2.32,<3
+beautifulsoup4>=4.12,<5
+pydantic>=2.8,<3
+httpx>=0.27,<0.29
+# Optional: install openai>=2,<3 only if explicitly using that paid provider.
